@@ -14,7 +14,7 @@ function Navbar() {
 
     return (
         <>
-            <div className='flex w-full sticky top-0 z-50 justify-between items-center my-4 sm:my-10 lg:my-16'>
+            <div className='flex w-full sticky top-0 z-50 justify-between items-center py-4 sm:my-10 lg:my-16 lg:py-4'>
                 <img src={Logo} alt='Logo' />
                 <img src={IconMenuOpen} onClick={openMenu} alt='Open menu' className='sm:hidden' />
                 <div className='hidden sm:flex gap-8'>
