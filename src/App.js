@@ -4,7 +4,7 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App mx-4 sm:mx-20 lg:mx-40 sm:h-screen">
+    <div className="App mx-4 sm:mx-10 lg:mx-24 xl-40 sm:h-screen">
       <Navbar />
       <Home />
     </div>
